@@ -2,7 +2,7 @@ package dml
 
 import (
 	"fmt"
-	"github.com/m4hi2/capsule71/pkg/migrator"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator"
 )
 
 func createMigrationTemplate(name, version string) string {
@@ -13,8 +13,8 @@ func createMigrationTemplate(name, version string) string {
 
 import (
 	"gorm.io/gorm"
-	"github.com/m4hi2/capsule71/pkg/migrator"
-	"github.com/m4hi2/capsule71/pkg/migrator/dml"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator/dml"
 )
 
 func init() {dml.Register(New%s)}

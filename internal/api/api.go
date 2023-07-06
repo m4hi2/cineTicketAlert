@@ -2,7 +2,7 @@ package api
 
 import (
 	"github.com/gofiber/fiber/v2"
-	"github.com/m4hi2/capsule71/pkg/dbconn"
+	"github.com/m4hi2/cineTicketAlert/pkg/dbconn"
 )
 
 func New() (*fiber.App, error) {

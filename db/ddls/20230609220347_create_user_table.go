@@ -1,9 +1,9 @@
 package ddls
 
 import (
-	"github.com/m4hi2/capsule71/internal/db/models"
-	"github.com/m4hi2/capsule71/pkg/migrator"
-	"github.com/m4hi2/capsule71/pkg/migrator/ddl"
+	"github.com/m4hi2/cineTicketAlert/internal/db/models"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator/ddl"
 	"gorm.io/gorm"
 )
 

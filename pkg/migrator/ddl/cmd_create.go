@@ -3,7 +3,7 @@ package ddl
 import (
 	"errors"
 	"fmt"
-	"github.com/m4hi2/capsule71/pkg/migrator"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator"
 	"github.com/spf13/viper"
 	"log"
 	"os"

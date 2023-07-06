@@ -4,10 +4,10 @@ Copyright © 2023 Mahir Labib Chowdhury dev.mahirchy@gmail.com
 package cmd
 
 import (
-	_ "github.com/m4hi2/capsule71/db/ddls"
-	_ "github.com/m4hi2/capsule71/db/dmls"
-	"github.com/m4hi2/capsule71/pkg/dbconn"
-	migratorCmd "github.com/m4hi2/capsule71/pkg/migrator/cmd"
+	_ "github.com/m4hi2/cineTicketAlert/db/ddls"
+	_ "github.com/m4hi2/cineTicketAlert/db/dmls"
+	"github.com/m4hi2/cineTicketAlert/pkg/dbconn"
+	migratorCmd "github.com/m4hi2/cineTicketAlert/pkg/migrator/cmd"
 	"gorm.io/gorm"
 	"log"
 

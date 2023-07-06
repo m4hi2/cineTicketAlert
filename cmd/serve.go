@@ -5,7 +5,7 @@ package cmd
 
 import (
 	"fmt"
-	"github.com/m4hi2/capsule71/internal/api"
+	"github.com/m4hi2/cineTicketAlert/internal/api"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"log"
@@ -14,7 +14,7 @@ import (
 // serveCmd represents the serve command
 var serveCmd = &cobra.Command{
 	Use:   "serve",
-	Short: "Starts the server for capsule71",
+	Short: "Starts the server for cineTicketAlert",
 	Run: func(cmd *cobra.Command, args []string) {
 		port := viper.GetString("server.port")
 		Serve(port)

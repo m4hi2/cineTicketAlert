@@ -3,7 +3,7 @@ package dml
 import (
 	"errors"
 	"fmt"
-	"github.com/m4hi2/capsule71/pkg/migrator"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator"
 	"gorm.io/gorm"
 	"gorm.io/gorm/logger"
 	"log"

@@ -15,13 +15,13 @@ var cfgFile string
 
 // rootCmd represents the base command when called without any subcommands
 var rootCmd = &cobra.Command{
-	Use:   "capsule71",
+	Use:   "cineTicketAlert",
 	Short: "Capsule 71 is the newspaper archive for 1971 Bangladesh",
 	Long: `Capsule 71 is the newspaper archival tool for 1971 Bangladesh.
 The main purpose for this is to be the backend for the newspaper archival too.
 
 Flags:
-	--config	string	config file location (default is $PROJECT_DIR/.capsule71.yaml) 
+	--config	string	config file location (default is $PROJECT_DIR/.cineTicketAlert.yaml) 
 `,
 
 	// Uncomment the following line if your bare application
@@ -45,7 +45,7 @@ func init() {
 	// Cobra supports persistent flags, which, if defined here,
 	// will be global for your application.
 
-	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "configs/.capsule71.yaml", "config file (default is $PROJECT_DIR/.capsule71.yaml)")
+	rootCmd.PersistentFlags().StringVar(&cfgFile, "config", "configs/.cineTicketAlert.yaml", "config file (default is $PROJECT_DIR/.cineTicketAlert.yaml)")
 }
 
 // initConfig reads in config file and ENV variables if set.
@@ -58,10 +58,10 @@ func initConfig() {
 		home, err := os.UserHomeDir()
 		cobra.CheckErr(err)
 
-		// Search config in home directory with name ".capsule71" (without extension).
+		// Search config in home directory with name ".cineTicketAlert" (without extension).
 		viper.AddConfigPath(home)
 		viper.SetConfigType("yaml")
-		viper.SetConfigName(".capsule71")
+		viper.SetConfigName(".cineTicketAlert")
 	}
 
 	viper.AutomaticEnv() // read in environment variables that match

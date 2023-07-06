@@ -2,7 +2,7 @@ package ddl
 
 import (
 	"fmt"
-	"github.com/m4hi2/capsule71/pkg/migrator"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator"
 	"gorm.io/gorm"
 	"log"
 	"strconv"

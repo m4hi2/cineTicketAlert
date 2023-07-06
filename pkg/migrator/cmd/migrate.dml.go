@@ -1,8 +1,8 @@
 package cmd
 
 import (
-	"github.com/m4hi2/capsule71/pkg/migrator"
-	"github.com/m4hi2/capsule71/pkg/migrator/dml"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator"
+	"github.com/m4hi2/cineTicketAlert/pkg/migrator/dml"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 	"strings"
